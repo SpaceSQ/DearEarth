@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dear Earth Privacy</title>
+  <meta name="description" content="Privacy practices for Dear Earth.">
+  <link rel="icon" href="/assets/favicon.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header>
+    <div class="wrap bar">
+      <a class="brand" href="/">
+        <img src="/assets/listener.png" alt="">
+        Dear Earth
+      </a>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/support/">Support</a>
+        <a href="/privacy/" aria-current="page">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <h1>Privacy</h1>
+    <p>This page describes practices in Dear Earth. It does not claim a certification, a seal, or a compliance audit. Dear Earth is published by SpaceSQ, bundle ID com.s2.dearearth. It is not an Apple product.</p>
+    <p class="zh">本页只写 Dear Earth 里的做法。这里没有认证、徽章或合规审计声明。Dear Earth 由 SpaceSQ 发布，Bundle ID 为 com.s2.dearearth。它不是苹果公司的产品。</p>
+
+    <h2>What stays on this iPhone 留在这台 iPhone 上的内容</h2>
+    <p>Conversations, midnight memory letters, evolution records, your optional SOUL profile, custom SOUL/SKILL for non-Earth companions, and a downloaded on-device model (if you chose one) are stored on this iPhone. They are excluded from iCloud backup. There is no required account.</p>
+    <p class="zh">对话、午夜记忆书信、进化记录、可选的「我的 SOUL」、除地球外的自定义 SOUL/SKILL，以及你选择下载的端侧模型，都存在这台 iPhone 上，并且不参与 iCloud 备份。没有强制账号。</p>
+
+    <h2>Log out and delete 登出与注销</h2>
+    <p><strong>Log out</strong> clears the on-device session (API keys, engine choice). Conversations and memories stay. You return to local chat with Earth. No login wall.</p>
+    <p class="zh"><strong>登出</strong>清掉本机会话（API Key、引擎选择）。对话和记忆仍在。回到与地球的本地对话，不强制登录。</p>
+    <p><strong>Delete account &amp; local data</strong> permanently deletes conversations, memory letters, evolution records, and custom settings on this iPhone. It asks for a red confirmation. Apple subscriptions must be cancelled in system Settings. The app cannot cancel them.</p>
+    <p class="zh"><strong>注销并删除本机数据</strong>会永久删除本机全部对话、记忆书信、进化记录与自定义设定，并经过红色确认。Apple 订阅必须在系统设置里单独取消，应用无法代为取消。</p>
+
+    <h2>Membership 会员</h2>
+    <p>Pro and Max are StoreKit subscriptions on your Apple ID. The app reads current entitlements to unlock features. Restore purchases is in Settings. Receipt handling is Apple’s.</p>
+    <p class="zh">Pro 与 Max 是绑定 Apple ID 的 StoreKit 订阅。应用读取当前权益来解锁功能。设置里可恢复购买。票据由苹果处理。</p>
+
+    <h2>On-device model 端侧模型</h2>
+    <p>The chat model is not inside the App Store binary. If you download it, the file is stored on this iPhone, checked with SHA-256, and excluded from backup. Download uses the network; after that, local chat does not need the network.</p>
+    <p class="zh">对话模型不打进 App Store 安装包。若你下载，文件存在本机，用 SHA-256 校验，且不备份。下载需要网络；之后本地对话可以离线。</p>
+
+    <h2>Cloud API (optional, Pro/Max) 可选的云端 API</h2>
+    <p>If you switch the engine to an AI model API and paste your own key, the message and a short context summary are sent to the provider you chose (OpenAI, Anthropic, Gemini, DeepSeek, or an OpenAI-compatible URL). The key is stored in the iOS Keychain on this device. Free stays on the local engine.</p>
+    <p class="zh">若你把引擎切到 AI 大模型 API 并粘贴自己的 Key，消息和简短情境摘要会发往你选的服务商。Key 只存在本机钥匙串。免费用户始终使用本地引擎。</p>
+
+    <h2>Weather, calendar, mic, camera 天气、日历、麦克风、相机</h2>
+    <p>Location (when in use) is only for today’s weather via WeatherKit. Calendar (full access) is only a glance at the 24 hours around now. Microphone and speech run only while you record. Camera and photos are only for reading text into the box. These permissions are optional. Chat works if you decline them.</p>
+    <p class="zh">使用期间的定位只为通过 WeatherKit 感受当天天气。日历完全访问只为看此刻前后 24 小时。麦克风和语音识别只在录音时使用。相机和相册只为把文字扫进输入框。这些权限都是可选的。拒绝后仍可聊天。</p>
+
+    <h2>We do not sell personal data 我们不出售个人数据</h2>
+    <p>Dear Earth does not sell conversations or memory letters. It does not show third-party advertising. Analytics SDKs are not part of this product’s described design.</p>
+    <p class="zh">Dear Earth 不出售对话或记忆书信，也不投放第三方广告。产品设计里不包括分析 SDK。</p>
+
+    <h2>Questions 询问</h2>
+    <p>Write to <a href="mailto:support@dearearth.space2.world">support@dearearth.space2.world</a>. Day-to-day help is on the <a href="/support/">support</a> page.</p>
+    <p class="zh">请写信至 support@dearearth.space2.world。日常说明在<a href="/support/">支持页</a>。</p>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="links">
+        <a href="/">Home</a>
+        <a href="/support/">Support</a>
+        <a href="/privacy/">Privacy</a>
+      </div>
+      <p>© SpaceSQ · Dear Earth · com.s2.dearearth</p>
+      <p>Not an Apple product. Not an Apple website.</p>
+    </div>
+  </footer>
+</body>
+</html>
